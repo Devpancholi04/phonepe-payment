@@ -3,7 +3,6 @@ import json
 import hashlib
 import base64
 import time
-from datetime import datetime
 from generate_transactionID import gen_ids
 import webbrowser
 from env_details import salt_key, merchant_id
