@@ -7,7 +7,7 @@ from generate_transactionID import gen_ids
 import webbrowser
 from env_details import salt_key, merchant_id
 
-class payment:
+class Payment:
     
     def __init__(self):
         self.pay_api = "https://api-preprod.phonepe.com/apis/pg-sandbox/pg/v1/pay"
@@ -158,7 +158,7 @@ class payment:
 
 
 if __name__ == "__main__":
-    pay = payment()
+    pay = Payment()
     pay.InitalizePayment(
         user_id="DEV101",
         amount=100,

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phonepe-payment"
+version = "1.0"
+description = "A simplify way for payment integration in our website and application. Works based on api Response."
+authors = [{ name = "Dev Pancholi", email = "devpancholigt2004@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = ['request','json','hashlib','base64','webbrowser']
+
+[project.urls]
+Homepage = "https://github.com/Devpancholi04/phonepe-payment"
